@@ -426,7 +426,7 @@ public class RedBlackTree<Key extends Comparable<Key>, Value> {
 
     public static void main(String[] args) { 
         RedBlackTree<String, Integer> st = new RedBlackTree<String, Integer>();
-         String[] words = new String[]{"S", "E", "A", "R", "C", "H", "E", "X", "A", "M", "P", "L", "E"};
+         String[] words = new String[]{"Q", "E", "S", "T", "C", "H", "E", "X", "A", "V", "P", "L", "W"};
         for (int i = 0; i < words.length; i++) {
             st.put(words[i], i);
             
